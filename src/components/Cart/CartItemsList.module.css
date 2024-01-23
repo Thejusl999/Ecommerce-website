@@ -1,0 +1,81 @@
+.modal {
+    position: fixed;
+    top: 8vh;
+    height:100%;
+    width: 33rem;
+    z-index: 10;
+    overflow: hidden;
+    background-color: white;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 10px;
+    right: 0;
+    border: 1px solid brown;
+}
+.text{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color:black;
+    font-size: 30px;
+}
+.closeButton{
+    display:flex;
+    float:right;
+    margin-right: -10px;
+    margin-top: -60px;
+}
+.orderButton{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    margin-left: 36%;
+}
+.orderButton:hover{
+    color:white;
+}
+.cartItemsDiv{
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+}
+.underline{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin-top: -10px;
+}
+.img{
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.img img{
+    max-width: 100%;
+    height: auto;
+}
+.pricediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+.li{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.quantityLabel{
+    margin-top: -20px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+}

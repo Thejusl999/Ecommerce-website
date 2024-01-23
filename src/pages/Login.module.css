@@ -1,0 +1,45 @@
+.divTitle{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family:'Segoe UI';
+    font-weight: bold;
+    text-align:center;
+}
+.form{
+    background-color: rgb(90,90,90);
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    width:30rem;
+    margin-bottom: 7.25rem;
+}
+.labels{
+    display: block;
+    font-weight: bold;
+    text-align:left;
+    color: white;
+    font-size: 1rem;
+}
+.loadingText{
+    color:white;
+    text-align:center;
+    margin-top:1rem;
+    font-weight:bold;
+    font-size:20px;
+}
+.inputField{
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius:5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.submitbtn{
+    margin-left: 40%;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.submitbtn:hover{
+    background-color: aqua;
+}

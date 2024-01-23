@@ -1,0 +1,24 @@
+.divTitle{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family:'Segoe UI';
+    font-weight: bold;
+    text-align:center;
+}
+.imgDiv{
+    width:100%;
+    padding: 2rem;
+    padding-top: 1rem;
+    font-family: times new roman;
+    font-size:18px;
+}
+.imgDiv img{
+    float: left;
+    margin-right: 2rem;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
